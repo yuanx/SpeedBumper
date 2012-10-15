@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Speed Bumper</title>
+		<meta charset="UTF8"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+		<script src="ejs_0.9_alpha_1_production.js" type="text/javascript"></script>
+		<script src="speedbumper.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('li a').speedBumper({
+								mask:{
+									color: "#ebecff",
+									loadSpeed: 200,
+									opacity: 0.9 
+								},
+								
+								closeOnClick: false
+							});
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="overlayCSS.css">
+		
+		<style>
+		  </style>		
+	</head>
+	<body>
+		<div id="container">
+			<p>
+				You will find all the help you need to raise a great kid with this straight-talking, proven-to-work advice for parents that you can trust. How do I know? Because I have used every tip, technique and effective method here, while raising my own great kids, and I will only share what I know to be true and what really works.
+			</p>
+			<ul id="links">
+				<li><a href="http://www.raiseagreatkid.com/raise-a-great-kid-newsletter.html">Raise a Great Kid Newsletter</a></li>
+				<li><a href="http://www.raiseagreatkid.com/6-basic-principles-of-good-parenting.html" target="_self">6 Basic Principles of Good Parenting or: What makes a good parent?</a></li>
+				<li><a href="http://www.raiseagreatkid.com/babys-first-year.html">Baby's First Year</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
